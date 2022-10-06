@@ -12,7 +12,7 @@ function App() {
 
   const addlist = () => {
     setlist((list) => {
-      return [input, ...list];
+      return [...list, input];
     });
     setinput("");
   };
