@@ -14,6 +14,7 @@ function App() {
     setlist((list) => {
       return [input, ...list];
     });
+    setinput("");
   };
 
   return (
